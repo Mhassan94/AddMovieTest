@@ -1,5 +1,7 @@
 The automation Test were created using a Page Object Model. I created the pages (i.e. addmoviepage, loginPage, etc.) with all the required webelements, and methods needed to create functional automation tests. The tests are seperated so that each page has a testing suite. For example, addMoviePage is associated with testAddMovie. There are some pre-requisites for the pages, so for the addMovie pages it is dependent on Login Page. So I imported loginPage webelements and method in the testAddmovie suite. 
 
+As for data, there is another folder under src. And the data will be pulled from several data files if necessary. 
+
 In the Testing suite testAddMovie I have added several test cases that will run to show how they would work and to show the organization of each test. The following are the tests I would run for the addMovie page:
 
     Positive Tests:
