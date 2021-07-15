@@ -4,7 +4,7 @@ The automation Test were created using a Page Object Model. I created the pages 
 
 As for data, there is another folder under src. And the data will be pulled from several data files if necessary. The data files would be filled with both valid and invalid data that will help with the tests.
 
-In the Testing suite testAddMovie I have added several test cases that will run to show how they would work and to show the organization of each test. The following are the tests I would run for the addMovie page:
+In the Testing suite testAddMovie I have added several test cases that will run to show how they would work and to show the organization of each test. Since we are under the assumption user can already login successfully, and the list view works as expected we are only doing testing on the Addmovie Page as that is what the sprint is concerned with. The following are the tests I would run for the addMovie page:
 
     Positive Tests:
       1.) Verify Add Movie Successfully
@@ -16,6 +16,8 @@ In the Testing suite testAddMovie I have added several test cases that will run 
       7.) Verify ratings can be inputed in ratings field
       8.) Verify inputting correct rating (1 -5)
       9.) Verify on initial load of page add movie button is not enabled
+      10.) Verify movie gets added to list view page.
+      11.) Verify invalid movie (i.e. missing field, incorrect data, etc. ) does not get added.
       
     Negative Tests:
       1.) Verify adding more than 200 characters in the title box 
