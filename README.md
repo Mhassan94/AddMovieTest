@@ -17,7 +17,8 @@ In the Testing suite testAddMovie I have added several test cases that will run 
       8.) Verify inputting correct rating (1 -5)
       9.) Verify on initial load of page add movie button is not enabled
       10.) Verify movie gets added to list view page.
-      11.) Verify invalid movie (i.e. missing field, incorrect data, etc. ) does not get added.
+      11.) Verify Correct Movie data is displayed in the list view page.
+      12.) Verify invalid movie (i.e. missing field, incorrect data, etc. ) does not get added.
       
     Negative Tests:
       1.) Verify adding more than 200 characters in the title box 
